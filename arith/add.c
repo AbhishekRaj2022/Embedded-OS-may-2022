@@ -1,5 +1,7 @@
-
-int add(int a ,int b)
+int add(int num1,int num2)
 {
-    return a+b;
+   int sum=0;
+   sum=num1+num2;
+   return sum;
+
 }

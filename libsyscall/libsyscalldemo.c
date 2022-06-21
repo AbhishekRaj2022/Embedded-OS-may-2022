@@ -1,12 +1,14 @@
-#include <stdio.h>
+# include<stdio.h>
+# include<string.h>
 
-char str[] = "Hello World!";
+
+char str[]="No system calls";
 
 int main(int argc, char const *argv[])
 {
-    int a;
-    strlen(str);
-    scanf("%d", &a);
-    printf("Hello, World!\n");
+    int num,len;
+    len=strlen(str);
+    printf("Hello World!! ");
+    scanf("%d",&num);
     return 0;
 }
